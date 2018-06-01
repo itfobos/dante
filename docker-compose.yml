@@ -1,7 +1,7 @@
 dante:
-  image: vimagick/dante
+  image: turukin/dante:0.1
   ports:
     - "1984:1080"
-  volumes:
-    - ./sockd.conf:/etc/sockd.conf
+#  volumes:
+#    - ./sockd.conf:/etc/sockd.conf
   restart: always
